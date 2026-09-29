@@ -18,7 +18,7 @@ data.json 字段（缺项用空字符串 "" 或省略，程序会留空）：
   "marital": "未婚",               // 或 "已婚"，空则不勾
   "zzmm": "共青团员",
   "edu": "本科", "degree": "学士",
-  "school": "衡阳师范学院", "major": "应用心理学", "gradtime": "2026年6月",
+  "school": "云溪师范学院", "major": "应用心理学", "gradtime": "2026年6月",
   "unit": "云溪县第六中学", "unit_nature": "全额事业",
   "title": "",                     // 职称，空则留空
   "qualification": "初中心理教师资格证", "qual_time": "",
