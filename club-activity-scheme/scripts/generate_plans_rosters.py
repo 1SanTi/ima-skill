@@ -57,7 +57,7 @@ ROSTER_FILES = [
     ('初一109班', '/sandbox/workspace/uploads/109班初一花名册.xlsx', 'xlsx_109'),
 ]
 # 108班：以"全校所有学生名单"为准，个别缺性别者在此补充
-GENDER_FALLBACK = {'刘智晖': '男', '田露': '女'}
+GENDER_FALLBACK = {'张伟': '男', '李娜': '女'}
 
 
 # ==================== 公文格式 helper ====================

@@ -26,8 +26,8 @@ data.json 字段（缺项用空字符串 "" 或省略，程序会留空）：
   "work_start": "",                // 参加工作时间
   "entry_method": "⑩其他",          // 使用编制进入方式，勾选项文字
   "resume": "2019.09—2022.06  ... 学生\\n2022.09—2026.06  ... 学生",
-  "family": [ {"relation":"父亲","name":"罗仁成","age":46,"political":"群众","unit":"经商"},
-              {"relation":"母亲","name":"周玉良","age":44,"political":"群众","unit":"务农"} ],
+  "family": [ {"relation":"父亲","name":"李国强","age":46,"political":"群众","unit":"经商"},
+              {"relation":"母亲","name":"王秀英","age":44,"political":"群众","unit":"务农"} ],
   "contact_person": "郭志强", "contact_phone": "13800000002",
   "date": "2026年9月1日",
   "exam": {"written":"","interview":"","total":""}, "physical":"", "assess":"",

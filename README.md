@@ -2,7 +2,9 @@
 
 > 万灵谱尼（[@1SanTi](https://github.com/1SanTi)）自建的 IMA（ima.copilot）技能合集，开源共享。
 
-共 **14** 个技能，每个技能一个独立文件夹，内含 `SKILL.md`（技能定义）及配套 `scripts/`、`references/`、`assets/`。
+共 **14** 个技能
+> ⚠️ 说明：仓库内所有示例数据（人名、单位名、证件号、手机号等）均已做化名/占位处理，仅用于演示技能用法。
+，每个技能一个独立文件夹，内含 `SKILL.md`（技能定义）及配套 `scripts/`、`references/`、`assets/`。
 
 ## 技能一览
 
