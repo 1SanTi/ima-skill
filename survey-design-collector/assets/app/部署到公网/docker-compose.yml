@@ -1,0 +1,19 @@
+# 问卷系统 · docker compose
+# 使用：在本目录（部署到公网）执行
+#   docker compose up -d --build
+# 之后：老师答题 http://服务器公网IP/    数据后台 http://服务器公网IP/admin
+services:
+  survey:
+    build:
+      context: ..
+      dockerfile: 部署到公网/Dockerfile
+    container_name: survey
+    ports:
+      - "80:8000"
+    environment:
+      - PORT=8000
+      # - ADMIN_PWD=你的密码        # 需要后台密码时取消注释
+      # - PUBLIC_URL=https://你的域名/   # 若前面有 Nginx 反代，填最终对外网址
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
