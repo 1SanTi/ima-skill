@@ -8,10 +8,10 @@
 JSON 配置结构（image、reporter 可省略）：
 {
   "title": "金秋启新程，逐梦正当时",          # 主标题文字，脚本自动加中文双引号
-  "subtitle": "蓬源中学2026年秋季开学典礼",    # 副标题文字，脚本自动加"——"前缀
+  "subtitle": "青竹中学2026年秋季开学典礼",    # 副标题文字，脚本自动加"——"前缀
   "paragraphs": ["第一段", "第二段", "第三段"], # 正文，通常三段
   "image": "/path/to/photo.jpg",               # 可选，现场照片
-  "reporter": "通讯员：刘东安",                 # 可选，默认"通讯员：刘东安"
+  "reporter": "通讯员：万灵谱尼",                 # 可选，默认"通讯员：万灵谱尼"
   "output": "/path/to/out.docx"                # 输出文件绝对路径
 }
 
@@ -76,7 +76,7 @@ def generate(cfg):
     if image_path:
         add_picture(doc, image_path, 12)
 
-    reporter = cfg.get('reporter', '通讯员：刘东安')
+    reporter = cfg.get('reporter', '通讯员：万灵谱尼')
     add_para(doc, reporter, 14, WD_ALIGN_PARAGRAPH.RIGHT)
 
     doc.save(cfg['output'])

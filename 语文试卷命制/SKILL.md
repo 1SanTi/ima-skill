@@ -5,7 +5,7 @@ metadata:
   description_zh: 从命制要求出发，结合课标、教材、课件与最新时事，生成大情境任务群统领的语文试卷、参考答案、命制思路报告与专项训练，并按规范排版归档到知识库。
   description_en: Chinese exam-paper designer that builds situational, task-group-driven exam papers with blueprint reports, answers, and KB archiving.
   version: 1.0.0
-  author: 刘东安
+  author: 万灵谱尼
   tags: [语文, 试卷命制, 命题, 大单元, 情境化, 组卷, 知识库归档]
 ---
 

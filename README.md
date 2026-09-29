@@ -1,6 +1,6 @@
 # IMA 技能合集 · ima-skill
 
-> 刘东安（[@1SanTi](https://github.com/1SanTi)）自建的 IMA（ima.copilot）技能合集，开源共享。
+> 万灵谱尼（[@1SanTi](https://github.com/1SanTi)）自建的 IMA（ima.copilot）技能合集，开源共享。
 
 共 **14** 个技能，每个技能一个独立文件夹，内含 `SKILL.md`（技能定义）及配套 `scripts/`、`references/`、`assets/`。
 

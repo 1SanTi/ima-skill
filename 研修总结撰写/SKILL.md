@@ -54,13 +54,13 @@ JSON 结构（`blocks` 按顺序渲染，`style` 取值：`title` / `h1` / `h2` 
 
 ```json
 {
-  "title": "衡东县初中物理、初中生物名师工作室联合开班仪式暨\"AI赋能教学教研\"专题讲座研修总结",
+  "title": "云溪县初中物理、初中生物名师工作室联合开班仪式暨\"AI赋能教学教研\"专题讲座研修总结",
   "blocks": [
     {"style": "h1", "text": "一、研修概况"},
     {"style": "para", "text": "……"},
     {"style": "h2", "text": "（一）开班仪式：明确方向，凝聚共识"},
     {"style": "para", "text": "……"},
-    {"style": "sign", "text": "总结人：刘东安"},
+    {"style": "sign", "text": "总结人：万灵谱尼"},
     {"style": "sign", "text": "2026年9月"}
   ]
 }
