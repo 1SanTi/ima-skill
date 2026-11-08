@@ -1,0 +1,16 @@
+[Unit]
+Description=Survey Server (问卷在线收集系统)
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/survey
+Environment=PORT=80
+# 如需后台密码，取消下一行注释并修改
+# Environment=ADMIN_PWD=你的密码
+ExecStart=/usr/bin/env python3 /opt/survey/server.py
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=multi-user.target
